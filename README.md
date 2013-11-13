@@ -12,6 +12,10 @@ BridgeDB License -> http://www.bridgedb.org/browser/trunk/LICENSE-2.0.txt
 Run the script
 --------------
 
+0. download the LycoCyc 3.3 data (see below) and unzip
+
+  tar zxvf lycocyc3.3.tar.gz
+
 1. add the jars to your classpath, e.g. on Linux with:
 
   export CLASSPATH=\`ls -1 *.jar | tr '\n' ':'\`
